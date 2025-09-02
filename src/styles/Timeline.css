@@ -1,0 +1,275 @@
+.timeline-root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.43);
+  overflow: hidden;
+}
+
+.timeline-bar {
+  width: 1666px;
+  height: 67.27px;
+  left: 146px;
+  top: 478.34px;
+  position: absolute;
+}
+
+.timeline-bar-section {
+  width: 416.5px;
+  height: 67.27px;
+  position: absolute;
+}
+
+.bar-section-1 {
+  left: 0;
+  top: 0;
+  background: rgba(0, 28.76, 84.59, 0.06);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.bar-section-2 {
+  left: 416px;
+  top: -0.07px;
+  background: #591711;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bar-section-3 {
+  left: 833px;
+  top: 0;
+  background: rgba(204, 10, 17, 0.56);
+}
+
+.bar-section-4 {
+  left: 1249.5px;
+  top: 0;
+  background: #F6C76E;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.timeline-label {
+  font-size: 24px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  position: absolute;
+}
+
+.onboarding-label {
+  width: 233px;
+  color: #591711;
+  left: unset;
+  top: unset;
+}
+
+.presales-label {
+  width: 107px;
+  height: 35.5px;
+  left: 309px;
+  top: 658.88px;
+  color: #324759;
+}
+
+.implementation-label {
+  width: 185px;
+  height: 31.28px;
+  left: 1114px;
+  top: 645.76px;
+  color: #CC0A11;
+}
+
+.handover-label {
+  width: 112px;
+  height: 31.28px;
+  left: 1569px;
+  top: 224.22px;
+  color: #F6C76E;
+}
+
+.timeline-stage {
+  position: absolute;
+}
+
+.stage-1 {
+  width: 170px;
+  height: 166px;
+  left: 265px;
+  top: 158px;
+}
+
+.stage-2 {
+  width: 171px;
+  height: 166px;
+  left: 643px;
+  top: 760px;
+}
+
+.stage-3 {
+  width: 171px;
+  height: 166px;
+  left: 1121px;
+  top: 150px;
+}
+
+.stage-4 {
+  width: 170px;
+  height: 166px;
+  left: 1537px;
+  top: 754px;
+}
+
+.timeline-stage-circle {
+  position: absolute;
+  border-radius: 9999px;
+}
+
+.circle-1 {
+  width: 170px;
+  height: 166px;
+  left: 0;
+  top: 0;
+  background: #324759;
+}
+
+.circle-2 {
+  width: 171px;
+  height: 166px;
+  left: 0;
+  top: 0;
+  background: #591711;
+}
+
+.circle-3 {
+  width: 171px;
+  height: 166px;
+  left: 0;
+  top: 0;
+  background: rgba(204, 10, 17, 0.56);
+}
+
+.circle-4 {
+  width: 170px;
+  height: 166px;
+  left: 0;
+  top: 0;
+  background: #F6C76E;
+}
+
+.timeline-stage-number {
+  position: absolute;
+  color: #FFF2F2;
+  font-size: 48px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.number-1 {
+  width: 24.82px;
+  height: 73.91px;
+  left: 72.44px;
+  top: 46px;
+}
+
+.number-2 {
+  width: 24.96px;
+  height: 73.91px;
+  left: 73.42px;
+  top: 46px;
+}
+
+.number-3 {
+  width: 24.96px;
+  height: 73.91px;
+  left: 73.42px;
+  top: 46px;
+}
+
+.number-4 {
+  width: 24.82px;
+  height: 73.91px;
+  left: 72.44px;
+  top: 46px;
+}
+
+.timeline-line {
+  position: absolute;
+  height: 0;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  outline-offset: -1.5px;
+}
+
+.line-1 {
+  width: 112px;
+  left: 354px;
+  top: 454px;
+  outline: 3px #C1CDE3 solid;
+}
+
+.line-2 {
+  width: 122px;
+  left: 1200px;
+  top: 464px;
+  outline: 3px #CC0A11 solid;
+}
+
+.line-3 {
+  width: 122px;
+  left: 1609px;
+  top: 738px;
+  outline: 3px #8DD0C0 solid;
+}
+
+.line-4 {
+  width: 121px;
+  left: 736px;
+  top: 737px;
+  outline: 3px #D7D5B4 solid;
+}
+
+.timeline-description {
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.desc-1 {
+  width: 218px;
+  height: 187px;
+  left: 643px;
+  top: 302px;
+  color: #591711;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.desc-2 {
+  width: 216px;
+  height: 187px;
+  left: 1501px;
+  top: 302px;
+  color: #888888;
+  font-family: 'Lora', serif;
+}
+
+.desc-3 {
+  width: 218px;
+  height: 187px;
+  left: 255px;
+  top: 733px;
+  color: #01225E;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.desc-4 {
+  width: 215px;
+  height: 187px;
+  left: 1092px;
+  top: 744px;
+  color: #CC0A11;
+  font-family: 'Lora', serif;
+}

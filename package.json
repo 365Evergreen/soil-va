@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@azure/msal-browser": "^4.21.1",
+    "@azure/msal-react": "^3.0.19",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"

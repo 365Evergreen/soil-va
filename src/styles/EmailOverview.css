@@ -1,0 +1,79 @@
+.email-overview-container {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.email-overview-card {
+  width: 195px;
+  height: 221px;
+  position: relative;
+}
+
+.email-overview-bg {
+  width: 150px;
+  height: 150px;
+  left: 22px;
+  top: 0;
+  position: absolute;
+}
+
+.bg-yellow {
+  background: #F6C76E;
+}
+
+.bg-blue {
+  background: #324759;
+}
+
+.bg-red {
+  background: #9B0000;
+}
+
+.bg-black {
+  background: #090606;
+}
+
+.email-overview-content {
+  width: 195px;
+  height: 221px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.email-overview-number {
+  width: 150px;
+  height: 150px;
+  left: 22px;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 48px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.email-overview-label {
+  width: 195px;
+  height: 71px;
+  left: 0;
+  top: 150px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+  font-size: 24px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}

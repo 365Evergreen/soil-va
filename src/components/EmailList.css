@@ -1,0 +1,66 @@
+.email-list-container {
+  background: #fff;
+  border: 2px solid #6ca32b;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.email-list-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.email-list-new {
+  color: #6ca32b;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-decoration: none;
+}
+.email-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+.email-list-item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 1rem;
+}
+.email-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.email-list-sender {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.email-list-date {
+  font-size: 1rem;
+  color: #8ca0c8;
+}
+.email-list-subject {
+  margin-top: 0.25rem;
+}
+.email-list-link {
+  color: #3a7bd5;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+.email-list-preview {
+  color: #444;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+.email-list-full {
+  color: #6ca32b;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  margin-top: 2rem;
+}
